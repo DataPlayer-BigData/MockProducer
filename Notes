@@ -1,0 +1,14 @@
+https://www.baeldung.com/kafka-mockproducer
+
+
+-When using Apache Kafka, one concern raised is how to run unit tests for the producer without the need to start a whole kafka cluster and zookeeper.
+-Hence, Mock Classes was added: MockProducer and MockConsumer
+-A mock of the producer interface you can use for testing code that uses Kafka.
+-By default this mock will synchronously complete each send call successfully. However, it can be configured to allow the user to control
+the completion of the call and supply an optional error for the producer to throw.
+
+
+
+TESTING USING JUNIT
+--------------------
+https://dzone.com/articles/a-quick-and-practical-example-of-kafka-testing
